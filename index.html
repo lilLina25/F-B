@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Иконочый шрифт-->
+	<link rel="stylesheet" href="css/iconsfont.css">
+	<!--Слайдер-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+	<!--Фавиконки-->
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+	<link rel="manifest" href="img/favicons/site.webmanifest">
+	<!--Стили-->
+	<link rel="stylesheet" href="css/style.css">
+	<title>F&B</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header__body">
+					<div class="header__logo">
+						<a href="#"><span class="icon-logo"></span></a>
+					</div>
+					<div class="header__menu menu-header">
+						<nav class="menu-header__menu">
+							<ul class="menu-header__list">
+								<li><a href="#catalog" class="menu-header__link link-for-list">Каталог</a></li>
+								<li><a href="#gallery" class="menu-header__link link-for-list">Галерея</a></li>
+								<li><a href="#about" class="menu-header__link link-for-list">О лаборатории</a></li>
+								<li><a href="#contacts" class="menu-header__link link-for-list">Контакты</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__icons">
+						<a href="#" class="header__search icon-header"><span class="icon-search"></span></a>
+						<form method="POST" class="header__search search-form">
+							<input type="search" class="search-form__input input">
+							<button class="search-form__btn icon-close" type="button"></button>
+						</form>
+						<a href="#" class="header__login icon-header"><span class="icon-login"></span></a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section id="about" class="preview">
+				<div class="container">
+					<div class="preview__body">
+						<h1 class="preview__title">Крупнейшая коллекция природных артефактов</h1>
+						<p class="preview__description">Являясь всего лишь частью общей картины, интерактивные
+							прототипы, которые представляют собой яркий пример европейского типа политической
+							и социальной культуры.</p>
+						<a href="#" class="preview__btn btn-with-arrow_green">Исследовать<span
+								class="icon-arrow_1"></span></a>
+					</div>
+				</div>
+			</section>
+			<section id="catalog" class="cardsblock">
+				<div class="container">
+					<div class="cardsblock__body swiper-container">
+						<div class="cardsblock__cards swiper-wrapper">
+							<article class="cardsblock__card card swiper-slide">
+								<a href="#" class="card__imgblock">
+									<span class="card__item">2.4</span>
+									<img src="img/img_cards/01.png" alt="Растение" class="card__img">
+								</a>
+								<div class="card__textblock">
+									<h2 class="card__title">Fig. 1 (plant)</h2>
+									<p class="card__description">Имеется спорная точка зрения, гласящая примерно
+										следующее:
+										активно развивающиеся страны третьего мира своевременно верифицированы.</p>
+									<button class="card__btn btn_transparent">Подробнее</button>
+								</div>
+							</article>
+							<article class="cardsblock__card card swiper-slide">
+								<a href="#" class="card__imgblock">
+									<span class="card__item">3.1</span>
+									<img src="img/img_cards/02.png" alt="Растение" class="card__img">
+								</a>
+								<div class="card__textblock">
+									<h2 class="card__title">Fig. 2 (flower)</h2>
+									<p class="card__description">Прежде всего, синтетическое тестирование влечет за
+										собой
+										процесс внедрения и модернизации условий.</p>
+									<button class="card__btn btn_transparent">Подробнее</button>
+								</div>
+							</article>
+							<article class="cardsblock__card card swiper-slide">
+								<a href="#" class="card__imgblock">
+									<span class="card__item">1.2</span>
+									<img src="img/img_cards/03.png" alt="Растение" class="card__img">
+								</a>
+								<div class="card__textblock">
+									<h2 class="card__title">Fig. 3 (leaf)</h2>
+									<p class="card__description">Лишь непосредственные участники прогресса неоднозначны
+										и будут в равной степени предоставлены сами себе для работы.</p>
+									<button class="card__btn btn_transparent">Подробнее</button>
+								</div>
+							</article>
+							<article class="cardsblock__card card swiper-slide">
+								<a href="#" class="card__imgblock">
+									<span class="card__item">1.4</span>
+									<img src="img/img_cards/04.png" alt="Растение" class="card__img">
+								</a>
+								<div class="card__textblock">
+									<h2 class="card__title">Fig. 4 (wood)</h2>
+									<p class="card__description">Базовый вектор развития не даёт нам иного выбора, кроме
+										определения новых предложений.</p>
+									<button class="card__btn btn_transparent">Подробнее</button>
+								</div>
+							</article>
+						</div>
+						<div class="cardsblock__paginationblock">
+							<span class="cardsblock__prev icon-arrow_1"></span>
+							<div class="cardsblock__pagination swiper-pagination"></div>
+							<span class="cardsblock__next icon-arrow_1"></span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="gallery" class="artifacts">
+				<div class="container">
+					<div class="artifacts__body">
+						<h2 class="artifacts__title">Новые артефакты</h2>
+						<div class="artifacts__content">
+							<div class="artifacts__photoblock">
+								<a href="#" class="artifacts__link"><span>4.2</span></a>
+								<a href="#" class="artifacts__link"><span>7.2</span></a>
+								<a href="#" class="artifacts__link"><span>2.7</span></a>
+								<a href="#" class="artifacts__link"><span>5.1</span></a>
+								<a href="#" class="artifacts__link"><span>9.1</span></a>
+								<a href="#" class="artifacts__link"><span>1.7</span></a>
+								<a href="#" class="artifacts__link"><span>2.3</span></a>
+								<a href="#" class="artifacts__swipe">Swipe to see more <span
+										class="icon-arrow_3"></span></a>
+								<img src="img/img_artifact/01.png" alt="Растения" class="artifacts__img">
+							</div>
+							<div class="artifacts__info info-artifacts">
+								<h3 class="info-artifacts__title">Kurische Nehrung 24</h3>
+								<div class="info-artifacts__description">
+									<p>Вот вам яркий пример современных тенденций -
+										начало повседневной работы по формированию позиции выявляет срочную потребность
+										методов управления процессами.</p>
+									<p>Есть над чем задуматься: представители современных социальных резервов
+										своевременно
+										верифицированы.</p>
+								</div>
+								<a href="#" class="info-artifacts__btn btn-with-arrow_black">
+									Читать далее
+									<span class="icon-arrow_1"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="contacts" class="contacts">
+				<div class="container">
+					<div class="contacts__body">
+						<div class="contacts__titleblock">
+							<h2 class="contacts__title">Помочь проекту</h2>
+							<p class="contacts__description">Равным образом, экономическая повестка сегодняшнего дня не
+								даёт нам иного выбора, кроме определения прогресса профессионального сообщества. Как
+								принято считать, элементы политического процесса рассмотрены исключительно в разрезе
+								маркетинговых и финансовых предпосылок. </p>
+						</div>
+						<form action="#" method="post" class="contacts__form form-contacts input_box">
+							<label for="name" class="form-contacts__label label"></label>
+							<input type="text" id="name" class="form-contacts__input input"
+								pattern="^[A-Za-zА-Яа-яЁё\s]+$" placeholder="Имя">
+							<label for="email" class="form-contacts__label label"></label>
+							<input type="email" id="email" class="form-contacts__input input" placeholder="Email">
+							<button type="submit" class="form-contacts__btn btn_green">Отправить</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__top">
+				<div class="container">
+					<div class="footer__icons">
+						<a href="#" class="footer__icon	icon-social"><span class="icon-youtube"></span></a>
+						<a href="#" class="footer__icon	icon-social"><span class="icon-ig"></span></a>
+						<a href="#" class="footer__icon	icon-social"><span class="icon-fb"></span></a>
+						<a href="#" class="footer__icon	icon-social"><span class="icon-tw"></span></a>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="container">
+					<div class="footer__copyblock">
+						<p class="footer__copyright">f&b ® 2020</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!--Скрипты-->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+	<script type="text/javascript" src='js/script.js'></script>
+</body>
+
+</html>
